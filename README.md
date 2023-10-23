@@ -48,9 +48,8 @@ Lectura de Temperatura: El sensor de temperatura se utiliza para medir la temper
 
 Link al proyecto: https://www.tinkercad.com/things/dey6lBWNwzw
 
-
 # Tercera Parte
-![Tercera parte](https://github.com/FiorellaAguayo/TP_SPD/blob/main/im%C3%A1genes/pt3.png)
+![Tercera parte](https://github.com/SantiagoUTNFRA/TP-SPD/blob/main/images/circuito%20parte%203.png)
 # Descripción
 Este proyecto implementa un contador de dos dígitos con un fotodiodo, un sensor de temperatura y un LED RGB. Los distintos leds se encenderán en función de la temperatura y luz ambiental que haya, es decir, estaremos obteniendo información distinta según el led que se prenda.
 
@@ -59,23 +58,16 @@ Este proyecto implementa un contador de dos dígitos con un fotodiodo, un sensor
     * Dos pulsadores: AUMENTA y DISMINUYE.
     * Arduino.
     * Cables y resistencias.
-    * Un interruptor deslizante.
-    * Un sensor de temperatura.
+    * Interruptor deslizante.
+    * Sensor de temperatura.
         - Nuevo:
-            * LED RGB.
-            * Fotodiodo.
+            * Fotorresistor para medir la intensidad luminosa.
 
-- Funcionamiento del Fotodiodo:
-El fotodiodo se utiliza para medir la intensidad de la luz en el entorno. La lectura del fotodiodo se compara con un umbral definido, en este caso, "mitadFotodiodo" (81), que representa un nivel medio de luz ambiente. 
-Dependiendo de la lectura del fotodiodo, se encienden diferentes LEDs. Esta funcionalidad permite observar visualmente la variación de resultados entre la luz ambiental y la temperatura.
+- Funcionamiento del Fotorresistor:
+    El fotorresistor se encarga de medir la intensidad de luz en el entorno. Según su lectura, se
+    determina si el contador debe operar en modo normal o en modo primo.
 
-- Funcionamiento de luces LEDs:
-- Dependiendo de la combinación de luz y temperatura, los LEDs se encienden de la siguiente forma:
-    * Si hay más luz y más temperatura, se enciende el LED rojo.
-    * Si hay menos luz y menos temperatura, se enciende el LED azul.
-    * Si hay una combinación de más luz y menos temperatura, o viceversa, se enciende el LED verde.
-
-Link al proyecto: https://www.tinkercad.com/things/gGwuJEx9xTq
+Link al proyecto: https://www.tinkercad.com/things/6e8B9RHm4Y3
 
 # Integración de Motor de CC
 ![Motor CC](https://github.com/SantiagoUTNFRA/TP-SPD/blob/main/images/circuito%20con%20motor%20cc.png)
